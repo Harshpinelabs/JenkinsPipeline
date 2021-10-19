@@ -13,7 +13,7 @@ pipeline {
         stage('Test'){
             steps {
                 //sh 'make check'
-                junit 'reports/**/*.xml' 
+                //junit 'reports/**/*.xml' 
                 echo 'Test sgate running fine'
             }
         }
