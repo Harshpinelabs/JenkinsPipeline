@@ -7,7 +7,7 @@ pipeline {
         stage('Build') { 
             steps { 
                 sh 'make' 
-                echo 'Build sgate running fine'
+                echo 'Build sgate is up and running fine'
             }
         }
         stage('Test'){
